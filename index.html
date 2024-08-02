@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <style>
+            dt::after{
+                content: ":";
+            }
+        </style>
+    </head>
     <body>
         <!-- <h1>Namaste Dunia</h1> --> 
         <h1>Hello World!</h1>
@@ -40,6 +47,57 @@
             <li>paani</li>
         </ul>
 
+        <!-- discription list -->
+        <!-- single term and description -->
+        <dl>
+            <dt>firefox</dt>
+            <dd>A free, open source, cross-platform, graphical web browser developed by the
+                Mozilla Corporation and hundreds of volunteers.</dd>
+        </dl>
+
+        <!-- single term and multiple description -->
+        <dl>
+            <dt>FireFox</dt>
+            <dd>
+                A free, open source, cross-platform, graphical web browser developed by the
+    Mozilla Corporation and hundreds of volunteers.
+            </dd>
+            <dd>
+                The Red Panda also known as the Lesser Panda, Wah, Bear Cat or Firefox, is a
+    mostly herbivorous mammal, slightly larger than a domestic cat (60 cm long).
+            </dd>
+        </dl>
+
+        <!-- multiple term and single description -->
+        <dl>
+            <dt>FireFox</dt>
+            <dt>mozilla FireFox</dt>
+            <dt>Fx</dt>
+            <dd>
+                A free, open source, cross-platform, graphical web browser developed by the
+    Mozilla Corporation and hundreds of volunteers.
+            </dd>
+        </dl>
+
+        <!-- multiple term and description -->
+        <dl>
+            <div>
+                <dt>Name</dt>
+                <dd>Godzilla</dd>
+            </div>
+            <div>
+                <dt>Born</dt>
+                <dd>1952</dd>
+            </div>
+            <div>
+                <dt>Birthplace</dt>
+                <dd>Japan</dd>
+            </div>
+            <div>
+                <dt>Color</dt>
+                <dd>Green</dd>
+            </div>
+        </dl>
         <!-- image -->
         <img src="despacito.jpeg" alt="" width="100%">
 
